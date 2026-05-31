@@ -11,7 +11,7 @@ const AdminTabs = () => {
 	return (
 		<Tabs
 			aria-label='Admin-tabs'
-			selectedKey={pathname}
+			selectedKey={pathname || undefined}
 			onSelectionChange={(e) => router.push(e as string)}
 			items={ADMIN_TABS}
 		>
