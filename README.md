@@ -1,5 +1,5 @@
 <h3 align="center">
-CSSharp Panel - Admin Web Panel for CounterStrikeSharp
+CSSharp Pansel - Admin Web Panel for CounterStrikeSharp
 </h3>
 
 CSSharp Panel is a web panel for CounterStrikeSharp that includes many features such as servers management, admins management, ban & comms management, rcon functions and much more, with a modern UI and a lot of customization options.
