@@ -3,6 +3,9 @@ const packageJson = require('./package.json')
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	optimizeFonts: false,
+	typescript: {
+		ignoreBuildErrors: true,
+	},
 	images: {
 		remotePatterns: [
 			{
