@@ -2,7 +2,7 @@ const packageJson = require('./package.json')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	distDir: 'build',
+	optimizeFonts: false,
 	images: {
 		remotePatterns: [
 			{
